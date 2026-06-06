@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "name": "Ahmad Azka Rizqi",
+    "nickname": "n4tuss",
+    "status": "High School Student & IT Enthusiast",
+    "focus": "Algorithmic Logic & Competitive Programming",
+    "platform": "Visual Studio Code / TLX TOKI"
+  },
+  "skills": [
+    { "name": "Front-End Web Development", "percentage": 80 },
+    { "name": "Programming Algorithm", "percentage": 65 },
+    { "name": "Mathematical Logic", "percentage": 50 },
+    { "name": "C++ Programming", "percentage": 40 },
+    { "name": "Back-End Web Development", "percentage": 20 }
+  ],
+  "achievements": [
+    { "title": "🥇 Finalis Provinsi", "desc": "Finalis Olimpiade Sains Madrasah tingkat Provinsi Jawa Tengah – Informatika" },
+    { "title": "🥉 Podium Kabupaten/Kota", "desc": "3rd Olimpiade Sains Madrasah tingkat Kabupaten/Kota – Informatika" }
+  ],
+  "projects": [
+    {
+      "title": "MySpace",
+      "category": "Financial Tracker Web-App",
+      "status": "Stable",
+      "tech": ["HTML", "CSS", "JS"],
+      "desc": "Aplikasi pelacak keuangan personal untuk menganalisis arus kas secara mandiri dengan manajemen pengorganisasian data yang terstruktur."
+    },
+    {
+      "title": "E-Commerce Platform",
+      "category": "Web-Based Digital Store",
+      "status": "Archived",
+      "tech": ["HTML", "CSS"],
+      "desc": "Eksperimen pembuatan purwarupa sistem toko online statis untuk mempelajari integrasi katalog produk."
+    }
+  ],
+  "targets": ["Olimpiade Sains Nasional", "Algoquest Institut Teknologi Sepuluh Nopember", "UTBK SNBT"],
+  "tools": ["GCC / G++", "Visual Studio Code", "Linux Mint", "Git & GitHub"],
+  "socials": {
+    "github": "https://github.com/",
+    "discord": "n4tuss#0000",
+    "instagram": "https://instagram.com/",
+    "whatsapp": "https://wa.me/",
+    "email": "mailto:example@email.com",
+    "tiktok": "https://tiktok.com/",
+    "telegram": "https://t.me/"
+  }
+}

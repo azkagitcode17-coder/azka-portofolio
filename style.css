@@ -1,0 +1,74 @@
+html, body {
+    background-color: #05070a;
+    scroll-behavior: smooth;
+    perspective: 1000px;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #05070a; }
+::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #10b981; }
+
+/* Persistent Matrix Tuning */
+#matrix-canvas {
+    opacity: 0.6; /* Diperjelas */
+    filter: contrast(1.2) brightness(1.2);
+}
+
+/* SOLID NEON CARDS (No Transparency) */
+.solid-neon-card {
+    background-color: #0a0d14 !important; /* Pekat/Solid */
+    border: 2px solid #1e293b;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transform-style: preserve-3d;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 10;
+}
+
+.solid-neon-card:hover {
+    border-color: #10b981;
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.2), inset 0 0 15px rgba(16, 185, 129, 0.1);
+}
+
+/* 3D Content Pop */
+.solid-neon-card > * {
+    transform: translateZ(30px); /* Bikin teks seolah mengambang di atas kartu */
+}
+
+/* Typing Caret */
+.caret::after {
+    content: "█";
+    margin-left: 5px;
+    color: #10b981;
+    animation: blink 0.8s step-end infinite;
+    text-shadow: 0 0 10px #10b981;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+/* Modern Glitch Hover */
+.glitch-hover:hover {
+    animation: glitch-skew 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #fff;
+    text-shadow: 2px 0 #10b981, -2px 0 #0ea5e9;
+}
+@keyframes glitch-skew {
+    0% { transform: skew(0deg); }
+    20% { transform: skew(-10deg); }
+    40% { transform: skew(10deg); }
+    60% { transform: skew(-5deg); }
+    80% { transform: skew(5deg); }
+    100% { transform: skew(0deg); }
+}
+
+/* Reveal Animation */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+    transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
