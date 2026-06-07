@@ -3,45 +3,59 @@
     "name": "Ahmad Azka Rizqi",
     "nickname": "n4tuss",
     "status": "High School Student & IT Enthusiast",
-    "focus": "Algorithmic Logic & Competitive Programming",
+    "focus": "Algorithmic Logic & Computational Thinking",
     "platform": "Visual Studio Code / TLX TOKI"
+  },
+  "personal": {
+    "spotify": {
+      "title": "Confident",
+      "artist": "Justin Bieber ft. Chance The Rapper",
+      "url": "https://open.spotify.com/track/3JsydWaf2Ev4ehaLUjj3SY?si=562ccb49e0d0423d",
+      "lyrics": "She's got my attention, she's confident"
+    },
+    "quotes": [
+      "Talk is cheap. Show me the code.",
+      "Logic will get you from A to Z; imagination will get you everywhere.",
+      "You are CSS to my HTML; without you, i'm just a skeleton <3",
+      "Hello My World <3"
+    ]
   },
   "skills": [
     { "name": "Front-End Web Development", "percentage": 80 },
-    { "name": "Programming Algorithm", "percentage": 65 },
+    { "name": "Computational Thinking", "percentage": 65 },
     { "name": "Mathematical Logic", "percentage": 50 },
     { "name": "C++ Programming", "percentage": 40 },
     { "name": "Back-End Web Development", "percentage": 20 }
   ],
   "achievements": [
-    { "title": "🥇 Finalis Provinsi", "desc": "Finalis Olimpiade Sains Madrasah tingkat Provinsi Jawa Tengah – Informatika" },
-    { "title": "🥉 Podium Kabupaten/Kota", "desc": "3rd Olimpiade Sains Madrasah tingkat Kabupaten/Kota – Informatika" }
+    { "title": "🏅 Finalis Provinsi", "desc": "Finalis Olimpiade Sains Madrasah tingkat Provinsi Jawa Tengah – Informatika" },
+    { "title": "🥉 Juara Kabupaten/Kota", "desc": "3rd Olimpiade Sains Madrasah tingkat Kabupaten/Kota – Informatika" }
   ],
   "projects": [
     {
       "title": "MySpace",
       "category": "Financial Tracker Web-App",
       "status": "Stable",
-      "tech": ["HTML", "CSS", "JS"],
-      "desc": "Aplikasi pelacak keuangan personal untuk menganalisis arus kas secara mandiri dengan manajemen pengorganisasian data yang terstruktur."
+      "tech": ["HTML", "CSS", "JS", "Tailwind CDN", "Firebase"],
+      "desc": "Aplikasi pelacak keuangan pribadi untuk melacak pengeluaran/pemasukan (dulu gw bikin buat lacak pengeluaran/pemasukan uang lebaran sih)"
     },
     {
       "title": "E-Commerce Platform",
       "category": "Web-Based Digital Store",
       "status": "Archived",
       "tech": ["HTML", "CSS"],
-      "desc": "Eksperimen pembuatan purwarupa sistem toko online statis untuk mempelajari integrasi katalog produk."
+      "desc": "Eksperimen pembuatan website toko online (belum jadi kak)"
     }
   ],
-  "targets": ["Olimpiade Sains Nasional", "Algoquest Institut Teknologi Sepuluh Nopember", "UTBK SNBT"],
-  "tools": ["GCC / G++", "Visual Studio Code", "Linux Mint", "Git & GitHub"],
+  "targets": ["Olimpiade Sains Nasional", "Algoquest Institut Teknologi Sepuluh Nopember", "UTBK SNBT (all in ITS boss)"],
+  "tools": ["GCC / G++", "Visual Studio Code", "Linux Mint", "Git & GitHub", "Windows", "Dev C++", "Firebase", "MySQL", "Vercell/Netlify", "Notion", "XAMPP", "File Eksplorer"],
   "socials": {
-    "github": "https://github.com/",
-    "discord": "n4tuss#0000",
-    "instagram": "https://instagram.com/",
-    "whatsapp": "https://wa.me/",
-    "email": "mailto:example@email.com",
-    "tiktok": "https://tiktok.com/",
-    "telegram": "https://t.me/"
+    "github": "https://github.com/azkagitcode17-coder",
+    "discord": "https://discord.com/users/natuss17_",
+    "instagram": "https://instagram.com/kaav17_",
+    "whatsapp": "https://wa.me/6282324864586",
+    "email": "mailto:azkagitcode17@gmail.com",
+    "tiktok": "https://tiktok.com/@ahmadazkarizkii",
+    "telegram": "https://t.me/Zkav7"
   }
 }
