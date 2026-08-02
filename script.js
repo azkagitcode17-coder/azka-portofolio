@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         document.getElementById('hero-terminal').addEventListener('click', () => inputField.focus());
         const bootLog = document.createElement('p');
-        bootLog.innerHTML = `[ <span class="text-[#10b981]">OK</span> ] n4tuss_hahaha.exe loaded.<br>Type '<span class="text-[#fac863]">help</span>' to list commands.`;
+        bootLog.innerHTML = `[ <span class="text-[#10b981]">OK</span> ] azka.exe loaded.<br>Type '<span class="text-[#fac863]">help</span>' to list commands.`;
         bootLog.className = "text-slate-300 pb-3 font-['Fira_Code']";
         logWorkspace.appendChild(bootLog);
 

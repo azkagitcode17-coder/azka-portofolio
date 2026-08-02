@@ -21,9 +21,9 @@
     ]
   },
   "skills": [
-    { "name": "Front-End Web Development", "percentage": 80 },
-    { "name": "Computational Thinking", "percentage": 65 },
-    { "name": "Mathematical Logic", "percentage": 50 },
+    { "name": "Computer Knowledge", "percentage": 70 },
+    { "name": "Python Programming", "percentage": 65 },
+    { "name": "Mathematical Logic", "percentage": 55 },
     { "name": "C++ Programming", "percentage": 40 },
     { "name": "Back-End Web Development", "percentage": 20 }
   ],
