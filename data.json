@@ -28,16 +28,17 @@
     { "name": "Back-End Web Development", "percentage": 20 }
   ],
   "achievements": [
-    { "title": "🏅 Finalis Provinsi", "desc": "Finalis Olimpiade Sains Madrasah tingkat Provinsi Jawa Tengah – Informatika" },
-    { "title": "🥉 Juara Kabupaten/Kota", "desc": "3rd Olimpiade Sains Madrasah tingkat Kabupaten/Kota – Informatika" }
+    { "title": "🏅 Finalis Provinsi", "desc": "Finalis Olimpiade Sains Madrasah tingkat Provinsi Jawa Tengah – Informatika 2026" },
+    { "title": "🥉 Juara Kabupaten/Kota", "desc": "3rd Olimpiade Sains Madrasah tingkat Kabupaten/Kota – Informatika 2026" },
+    { "title": "🌟 Semifinalis", "desc": "Semifinalis AlgoQuest Institus Teknologi Sepuluh Nopember 2026" }
   ],
   "projects": [
     {
-      "title": "MySpace",
-      "category": "Financial Tracker Web-App",
+      "title": "azka-portofolio",
+      "category": "Portofolio Personal Branding",
       "status": "Stable",
-      "tech": ["HTML", "CSS", "JS", "Tailwind CDN", "Firebase"],
-      "desc": "Aplikasi pelacak keuangan pribadi untuk melacak pengeluaran/pemasukan (dulu gw bikin buat lacak pengeluaran/pemasukan uang lebaran sih)"
+      "tech": ["HTML", "CSS", "JavaScript", "Vercell"],
+      "desc": "Website portofolio khusus untuk keperluan personal branding sejak kelas 12 SMA"
     },
     {
       "title": "E-Commerce Platform",
@@ -47,7 +48,7 @@
       "desc": "Eksperimen pembuatan website toko online (belum jadi kak)"
     }
   ],
-  "targets": ["Olimpiade Sains Nasional", "Algoquest Institut Teknologi Sepuluh Nopember", "UTBK SNBT (all in ITS boss)"],
+  "targets": ["Tes Kemampuan Akademik 2026", "Try Out Sepuluh Nopember X Forda 2026", "Beasiswa 2026", "Ujian Praktik 2027", "Ujian Madrasah 2027", "UTBK-SNBT 2027"],
   "tools": ["GCC / G++", "Visual Studio Code", "Linux Mint", "Git & GitHub", "Windows", "Dev C++", "Firebase", "MySQL", "Vercell/Netlify", "Notion", "XAMPP", "File Eksplorer"],
   "socials": {
     "github": "https://github.com/azkagitcode17-coder",
